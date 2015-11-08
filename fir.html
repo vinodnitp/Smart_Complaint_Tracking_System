@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>E-POLICE |ONLINE FIR</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/form.css" type="text/css">
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div class="body1">
+  <div class="main">
+    <header>
+      <div class="wrapper">
+        <h1><a href="index.html" id="logo">E-POLICE</a><span id="slogan">protect save serve</span></h1>
+        <div class="right">
+          <nav>
+            <ul id="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="safetytips.html">Safety tips</a></li>
+              <li id="menu_active"><a href="fir.html">Online Fir</a></li>
+              <li><a href="feedback.html">Feedback</a></li>
+              <li><a href="contacts.html">Contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
+</div>
+<div class="main">
+  <div id="banner">
+    </div></div>
+	<div class="main">
+ <div id="back" class="pad color1">
+ <h2>ONLINE FIR FORM</h2>
+<p align="center">The fields marked (*) are mandatory to be filled. </p>
+<form name="fir" action="#" method="post">
+<div align="center">
+<table>
+	<tr style="margin-bottom:25px;">
+	  <td colspan="2" align="center"><span id="heading">Complainant&rsquo;s  Detail</span></td>
+	  </tr>
+	  <tr id="gap2"></tr>
+	<tr>
+		<td>Name<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<input type="text" name="c_name" size="50" maxlength="50" value="Enter the Name">
+</span></td>
+	</tr>
+	<tr id="gap2"></tr>
+	<tr>
+		<td>Father's Name<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<input type="text" name="c_fname" size="50" maxlength="50" value="Father's Name">
+</span></td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+		<td>Land Line <span id="hash">#</span></td>
+		<td><span>
+<input type="text" name="c_landline" size="15" maxlength="10" value="">
+</span>(Maximum 10 no.)</td>
+	</tr>
+	<tr id="gap2"></tr>
+	<tr>
+		<td>Mobile <span id="hash">#</span><span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<input type="text" name="c_mobile" size="15" maxlength="11" value="">
+</span>(e.g 03331234567 Maximum no. 11)</td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+		<td>Email Address</td>
+		<td><span>
+<input type="text" name="c_zemail" size="30" maxlength="50" value="">
+</span></td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+		<td>Present Address<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<input type="text" name="c_post_address" size="50" maxlength="100" value="">
+</span></td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+		<td>Home District<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<select name="c_district">
+<option value="c_district_default" selected="selected">
+Please Select</option>
+<option>Lucknow</option>
+<option>Varansi</option>
+<option>Kanpur</option>
+<option>Agra</option>
+<option>Ghaziabad</option>
+</select>
+</span></td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+		<td>Home Police Station<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<select name="c_ps">
+<option value="" selected="selected">
+Please Select</option>
+</select>
+</span></td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+	  <td colspan="2" align="center"><span id="heading">Information Report</span></td>
+	  </tr><tr id="gap2"></tr>
+	  <tr>
+	  <td>
+	  Type of Crime<span id="astrick">*</span></td>
+	  <td><select name="c_typecrime">
+	  <option value="c_typecrime_default" selected="selected">
+Please Select</option>
+<option>Child Abuse</option>
+<option>Corruption</option>
+<option>Domestic Violence</option>
+<option>Harrasment</option>
+<option>Kidnapping</option>
+<option>Missing</option>
+<option>Murder</option>
+<option>Rape</option>
+<option>Vehicle Stolen</option>
+<option>Valuable Stolen</option>
+</select>
+	  </td></tr><tr id="gap2"></tr>
+	  <tr>
+	  <td>Subject</td>
+	  <td><input type="text" name="c_subject" value="" maxlength="100">(Maximum 100 characters)</td></tr>
+	<tr><tr id="gap2"></tr>
+		<td>Details of Incident<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<textarea name="c_incident_detail" cols="50" rows="5"></textarea>
+</span></td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+	<td>Description File</td>
+	<td><input type="file" name="c_desc_file">(PDF or Document File)</td></tr><tr id="gap2"></tr>
+	<tr>
+		<td>Date of Incident<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<input type="text" name="c_incident_date" size="12" maxlength="10" value="">
+</span>(e.g dd-mm-yyyy)</td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+		<td>Time of Incident<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<input type="text" name="c_incident_time" size="12" maxlength="8" value="">
+</span>(e.g 10:30 am)</td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+		<td>Place of Incident<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<input type="text" name="c_incident_place" id="c_incident_place" size="50" maxlength="255" value="">
+</span></td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+		<td>District of Incident<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<select name="c_incident_district">
+<option value="c_incident_district_default" selected="selected">
+Please Select</option>
+<option>Lucknow</option>
+<option>Varansi</option>
+<option>Kanpur</option>
+<option>Agra</option>
+<option>Ghaziabad</option>
+</select>
+</span></td>
+	</tr><tr id="gap2"></tr>
+	<tr>
+		<td>Police Station Jurisdiction<span id="astrick">&nbsp;*</span></td>
+		<td><span>
+<select name="c_incident_ps">
+<option value="" selected="selected">
+Please Select</option>
+</select>
+</span></td>
+	</tr><tr id="gap2"></tr><tr id="gap2"></tr>
+	<tr>
+	<td colspan="2" align="center" id="nobord">
+	<input type="submit" name="subbutton" value="  Submit  "></td></tr><tr id="gap2"></tr><tr id="gap2"></tr><tr id="gap2"></tr>
+</table>
+</div>
+</form></div>
+</div>
+<div class="body2">
+  <div class="main">
+     <footer>
+      <div class="footerlink">
+        <p class="lf">Copyright &copy; 2014 <a href="index.html">E-POLICE</a> - All Rights Reserved</p>
+   <div align="right">    
+<table>
+<tr>
+<td id="footertable"><a href="index.html">HOME</a></td>
+<td id="footertable"><a href="fir.html">ONLINE FIR</a></td>
+<td id="footertable"><a href="safetytips.html">SAFETY TIPS</a></td>
+<td id="footertable"><a href="feedback.html">FEEDBACK</a></td>
+<td id="footertable"><a href="contacts.html">CONTACT US</a></td>
+</tr>
+</table></div>
+        <div style="clear:both;"></div>
+      </div>
+    </footer>
+  </div>
+</div>
+</body></html>

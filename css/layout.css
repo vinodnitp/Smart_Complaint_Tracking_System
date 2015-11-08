@@ -1,0 +1,33 @@
+.col1, .col2, .col3, .cols {
+	float:left;
+}
+.col1 {
+	width:480px;
+	background:#CCCCCC;
+	height:100%;
+}
+.col2 {
+	width:500px;
+	}
+.cols {
+	width:280px;
+}
+.text
+{font-family:"Times New Roman", Times, serif;
+color:white;
+}
+#page1 h1 {
+	padding-top:33px;
+}
+#page1 #menu {
+	padding-top:60px;
+}
+#page1 header {
+	height:126px;
+}
+#page1 #banner {
+	background:url(../images/url.jpg) 0 0 no-repeat;
+	height:283px;
+	padding:38px 0 0 30px;
+}
+
